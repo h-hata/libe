@@ -1,0 +1,57 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 12209976892875622674 (0xa9728d4af7944912)
+    Signature Algorithm: sha256WithRSAEncryption
+        Issuer: C=jp, ST=tokyo, O=nttcom, OU=iac, CN=ca.vntest.com/emailAddress=vn-ia@ntt.com
+        Validity
+            Not Before: May 16 03:27:37 2014 GMT
+            Not After : Oct  1 03:27:37 2041 GMT
+        Subject: C=jp, ST=tokyo, O=nttcom, OU=iac, CN=vng1.vntest.com/emailAddress=vn-ia@ntt.com
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (1024 bit)
+                Modulus:
+                    00:d6:56:1d:33:2a:0e:6b:b1:3b:99:a5:d8:18:b2:
+                    69:eb:4f:24:08:f1:68:75:3a:41:9d:2d:a1:d5:ae:
+                    78:48:f5:e0:89:4a:8e:c1:01:17:b9:c9:3c:00:8d:
+                    29:0a:11:d9:4b:9e:6e:9f:5e:db:3c:6f:e5:10:3f:
+                    e8:46:ca:23:58:74:b6:f8:30:70:29:f9:ca:c2:2d:
+                    b3:68:20:15:df:a6:43:80:1e:b6:2b:71:2f:45:1a:
+                    27:4f:2a:0f:54:f2:c6:26:5b:9b:78:be:b4:ef:ba:
+                    b1:1f:61:de:48:9a:30:93:3e:4e:dc:6e:bc:4e:07:
+                    59:eb:13:2e:f6:e6:2b:fe:a9
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            X509v3 Key Usage: 
+                Digital Signature, Non Repudiation, Key Encipherment
+            X509v3 Subject Alternative Name: 
+                DNS:vng.ntt.com, DNS:vnm.ntt.com, DNS:localhost
+    Signature Algorithm: sha256WithRSAEncryption
+         88:04:17:ef:d3:fa:08:1b:2e:17:0b:6d:5d:8d:d0:81:5a:85:
+         ba:4c:d4:a4:d0:cf:25:67:ea:33:5f:b8:3b:05:b0:88:43:df:
+         a6:29:21:17:9d:fb:30:d6:a6:b1:0c:7b:64:83:a0:6b:c5:38:
+         e7:7f:37:ab:80:b8:fa:3a:68:dd:fe:8e:03:b4:d7:0c:1d:73:
+         8a:d1:6b:45:b1:59:87:c5:ad:06:01:96:91:d8:3d:3f:ac:8f:
+         76:5a:64:fa:12:9b:ae:b9:f5:5a:54:40:b2:99:47:d2:71:66:
+         5c:f6:64:9b:3c:21:eb:32:f3:0a:62:33:ad:7b:a8:93:4e:cf:
+         89:e7
+-----BEGIN CERTIFICATE-----
+MIICrjCCAhegAwIBAgIJAKlyjUr3lEkSMA0GCSqGSIb3DQEBCwUAMHIxCzAJBgNV
+BAYTAmpwMQ4wDAYDVQQIEwV0b2t5bzEPMA0GA1UEChMGbnR0Y29tMQwwCgYDVQQL
+EwNpYWMxFjAUBgNVBAMTDWNhLnZudGVzdC5jb20xHDAaBgkqhkiG9w0BCQEWDXZu
+LWlhQG50dC5jb20wHhcNMTQwNTE2MDMyNzM3WhcNNDExMDAxMDMyNzM3WjB0MQsw
+CQYDVQQGEwJqcDEOMAwGA1UECBMFdG9reW8xDzANBgNVBAoTBm50dGNvbTEMMAoG
+A1UECxMDaWFjMRgwFgYDVQQDEw92bmcxLnZudGVzdC5jb20xHDAaBgkqhkiG9w0B
+CQEWDXZuLWlhQG50dC5jb20wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBANZW
+HTMqDmuxO5ml2BiyaetPJAjxaHU6QZ0todWueEj14IlKjsEBF7nJPACNKQoR2Uue
+bp9e2zxv5RA/6EbKI1h0tvgwcCn5ysIts2ggFd+mQ4AetitxL0UaJ08qD1TyxiZb
+m3i+tO+6sR9h3kiaMJM+TtxuvE4HWesTLvbmK/6pAgMBAAGjSjBIMAkGA1UdEwQC
+MAAwCwYDVR0PBAQDAgXgMC4GA1UdEQQnMCWCC3ZuZy5udHQuY29tggt2bm0ubnR0
+LmNvbYIJbG9jYWxob3N0MA0GCSqGSIb3DQEBCwUAA4GBAIgEF+/T+ggbLhcLbV2N
+0IFahbpM1KTQzyVn6jNfuDsFsIhD36YpIRed+zDWprEMe2SDoGvFOOd/N6uAuPo6
+aN3+jgO01wwdc4rRa0WxWYfFrQYBlpHYPT+sj3ZaZPoSm6659VpUQLKZR9JxZlz2
+ZJs8Iesy8wpiM617qJNOz4nn
+-----END CERTIFICATE-----
