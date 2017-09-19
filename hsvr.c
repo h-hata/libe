@@ -209,7 +209,7 @@ static void readcb(struct bufferevent *bev,void *ctx)
 {
 	SESSION *self;
 	struct evbuffer *src ;
-	size_t len;
+	//size_t len;
 	int n;
 	unsigned char sbuff[BUFF_LEN];
 	
@@ -219,7 +219,7 @@ static void readcb(struct bufferevent *bev,void *ctx)
 #endif
 	self = (SESSION *)ctx;
 	src = bufferevent_get_input(bev);//自側
-	len = evbuffer_get_length(src);
+	//len = evbuffer_get_length(src);
 	memset(sbuff,0,BUFF_LEN);
 	self->buff=sbuff;
 	n=evbuffer_remove(src,self->buff,BUFF_LEN-8);
