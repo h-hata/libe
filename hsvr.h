@@ -19,7 +19,7 @@ typedef struct _session_t{
 	size_t  blen;
 	char host[32];
 	unsigned short port;
-	char *usr;
+	void *usr;
 }SESSION;
 typedef void(*CALLBACK_T)(CTYPE type,SESSION *);
 extern int S_start(
